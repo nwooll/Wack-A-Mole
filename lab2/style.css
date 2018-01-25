@@ -1,0 +1,171 @@
+
+
+#btn{
+    height: 322px;
+    width: 322px;
+    transform: scale(.5);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    background-image: url("img/icon2.png");
+}
+
+#scoreCont{
+    width: 80vw;
+    top: 0;
+    left:0;
+    right: 0;
+    height: 10%;
+    position: absolute;
+    margin: auto;
+    background-color: #e7e7e7;
+    border: 2px solid #969696;
+}
+
+#score{
+    padding: 16px 32px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin: auto;
+    left:5%;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 20px;
+}
+
+#highScore{
+    padding: 16px 32px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin: auto;
+    right:5%;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 20px;
+}
+
+#playSpace{
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    margin: auto;
+    bottom: 0;    
+}
+
+#userInp{
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 50vw;
+    height: 40vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #e7e7e7;
+    border: 2px solid #969696;
+    z-index: 2;
+}
+
+#inp1{
+    display: block;
+    position: absolute;
+    margin: auto;
+    width: 180px;
+    height: 20px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#inpHeader{
+ padding: 16px 32px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 26pt;
+    width: 200px;
+    height: 50px;
+    
+}
+
+#inpBtn{
+     background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    position: absolute;
+    padding: 16px 32px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom:10%;
+    width: 100px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+#inpBtn:hover {
+    background-color: #e7e7e7;
+}
+
+#endGame{
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    position: absolute;
+    padding: 16px 32px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    width: 100px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+#endGame:hover {
+    background-color: #e7e7e7;
+}
+
+#lockDiv{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(170, 170, 170, 0.53);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#game-over{
+    display: none;
+    background-color: #ccc2c2;
+    position: absolute;
+    height: auto;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
